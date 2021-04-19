@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Behrooz | Web Developer | Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&family=Montserrat:wght@300;700&family=Nanum+Pen+Script&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Behrooz Behamooz</div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction -->
+        <section id="home">
+            <div class="group">
+                <div class="item">
+                    <img src="images/home/ben.png" alt="Ben - Profile Photo" class="image-enhanced">
+                </div>
+                <div class="item">
+                    <h1>Hi. I'm Behrooz!</h1>
+                    <p>I want to introduce myself so you are interested in getting to know me better. I'll share more
+                        here on what I do professional so that people that are looking for those skills will want to
+                        hire me.</p>
+                    <p>After you get to know more about me and my skills here, 
+                        you may contact me through the provided links and forms at the bottom of this page.
+                        Can't wait to connect with you.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About me -->
+        <section  id="about" class="dark-background">
+            <h2>About me</h2>
+            <div class="group">
+                <div class="item item-double">
+                    <p>I love problem solving. A problem and ways to solve it is my favorite topic to talk about.
+                        I spend hours drawing lines and connecting circles to find the best solution. I love listening to
+                        my teammate's suggestions, thoughts and different approaches. After a problem is solved when I 
+                        create something useful, I feel great.
+                    </p>
+                    <p>
+                        But coding is not the only thing I enjoy. I like finding new hiking trails, small towns and 
+                        I enjoy local foods entertainments and cultures. I love making friends and talk about the moment and the 
+                       future.
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="images/about/local-culture.jpeg" alt="locaul culture"
+                        class="image-enhanced">
+                </div>
+        </section>
+
+
+        <!-- Portfolio -->
+        <section id="portfolio" >
+            <h2>Portfolio</h2>
+            <div class="group">
+                <div class="item">
+                    <img src="images/portfolio/pomodoro.jpg" alt="Pomodoro Timer Screen Shot" class="rounded">
+                    <h3>Pomodor Timer App</h3>
+                    <p>
+                        <ul>
+                        <li>
+                            Developed a web application that helps the user to break down work into intervals, 
+                            traditionally 25 minutes in length, separated by short breaks
+                        </li>
+                        <li>
+                            Built-in React using React function components, React state hooks, and bootstrap
+                        </li>
+                         </ul>
+                    </p>
+                    
+                </div>
+                <div class="item">
+                    <img src="images/portfolio/comunity-blog.jpg" alt="Commiunity Blog Screen Shot" class="rounded">
+                    <h3>Community Members' Blog </h3>
+                    <p>
+                        <ul>
+                        <li>
+                            Developed a web application for community members to see other members’ posts and comments
+                        </li>
+                        <li>
+                            Built-in React using React function components, React effect and state hooks, and bootstrap                        </li>
+                        </li>
+                        <li>
+                            Managed API calls using React effect hooks with cleanup functionality to avoid any race conditions
+                         </li>   
+                         <li>
+                            Deployed Frontend routing concept and nested routes using React Router library
+                        </li>   
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="group">
+                <div class="item">
+                    <h1>More Projects Comming Soon</h1>
+                 </div>
+                 <div class="item">
+                    <h1>More Projects Comming Soon</h1>
+                 </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="dark-background">
+            <h2>Contact</h2>
+            <div class="group">
+                <div class="item">
+                    <form action="https://formspree.io/f/mrgrbldj" method="POST">
+                        <label for="user-name">Name:</label>
+                        <input id="user-name" type="text" name="name">
+
+                        <label for="user-email">Email:</label>
+                        <input id="user-email" type="text" name="email">
+
+                        <label for="user-message">Message:</label>
+                        <textarea id="user-message" name="message"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <div class="item item-double">
+                    <p>Phone #: <a href="tel:650-921-1823">650.921.1823</a></p>
+                    <p>Email: <a
+                            href="mailto:Behrooz.Behamooz@email.com?subject=You%20are%20hired!!">Behrooz.Behamooz@email.com</a>
+                    <p>
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52909.72811935155!2d-118.51577508747414!3d34.02185553704557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4cec2910019%3A0xb4170ab5ff23f5ab!2sSanta%20Monica%2C%20CA!5e0!3m2!1sen!2sus!4v1618849924567!5m2!1sen!2sus" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Bhrooz</p>
+    </footer>
