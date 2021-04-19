@@ -1,19 +1,20 @@
 body {
     margin: 0;
     font-family: Helvetica, Arial, sans-serif;
+    color: black;
     background-image: url(images/backgrounds/roughcloth.png);
   }
   
   header {
-    background-color: #403933;
-    background-image: url(images/backgrounds/bkground-light.jpeg);
+    /* background-color: #403933; */
+    background-image: url(images/backgrounds/bkground-light.jpeg); 
     margin-bottom: 40px;
   }
   
   .logo {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 72px;
-    color: #c5c0b8;
+    color: #291e0c;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
@@ -40,7 +41,7 @@ body {
   }
   
   header nav ul li a {
-    color: #fff;
+    color: #291e0c;
     text-decoration: none;
     padding: 0 20px 0 0;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -125,10 +126,10 @@ body {
       text-decoration: none;	
   }
   
-  main  a:link { color: #38786a; }
-  main  a:visited { color: #38786a; }
+  main  a:link { color: black; }
+  main  a:visited { color: black; }
   main  a:hover { color: #403933; }
-  a:active { color: #403933; }
+  a:active { color: #000000; }
   
   
   a:hover {
