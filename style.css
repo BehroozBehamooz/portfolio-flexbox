@@ -13,7 +13,7 @@ body {
   
   .logo {
     font-family: 'Nanum Pen Script', cursive;
-    font-size: 72px;
+    font-size: 52px;
     color: #291e0c;
     text-align: center;
     letter-spacing: -3;
@@ -51,7 +51,7 @@ body {
     color: #bdbdbd;
   }
   
-  @media all and (min-width: 700px) {
+  @media all and (min-width: 800px) {
     header {
       display: flex;
       justify-content: space-between;
@@ -60,12 +60,17 @@ body {
     .logo {
       margin: 14px 0 14px 20px;
       padding-top: 0;
-      font-size: 42px;
+      font-size: 62px;
     }
     
     header nav {
       margin-top: 14px;
     }
+  }
+  @media all and (min-width:1000px){
+      .logo{
+        font-size: 72px;
+      }
   }
   
   /* ---  Primary Groups --- */
