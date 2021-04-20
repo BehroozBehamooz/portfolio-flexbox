@@ -129,7 +129,7 @@ body {
   main  a:link { color: black; }
   main  a:visited { color: black; }
   main  a:hover { color: #403933; }
-  a:active { color: #000000; }
+  a:active { color: blue; }
   
   
   a:hover {
@@ -201,3 +201,8 @@ body {
     height: 160px;
   }
     
+  iframe {
+    width: 100%;
+    height: 300px;
+    /* border: 0px; */
+  }
